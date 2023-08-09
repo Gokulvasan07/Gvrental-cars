@@ -1,0 +1,149 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set box sizing to border-box */
+  *, *:before, *:after {
+    box-sizing: border-box;
+  }
+  
+  /* Apply a background color to the body */
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://marketplace.canva.com/EAD2962NKnQ/2/0/1600w/canva-rainbow-gradient-pink-and-purple-virtual-background-_Tcjok-d9b4.jpg');
+  }
+  
+  /* Styling for the header */
+  header {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Styling for the navigation links */
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #f7b731;
+  }
+  
+  /* Styling for the main content area */
+  main {
+    padding: 20px;
+  }
+  
+  /* Styling for car cards */
+  .car-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    height: 350px;
+    gap: 0px;
+  }
+  .car-card {
+    border-radius: 10px;
+    width: 400px;
+    height: 200px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+    text-align: center;
+  }
+  .car-card img {
+    top:10px;
+    background-color: aliceblue;
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
+  }
+  .car-card h3 {
+    margin: 10px 0;
+  }
+  
+  .car-card p {
+    color: #777;
+  }
+  
+  .book-button {
+    background-color: #e39a2b;
+    color: white;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .book-button:hover {
+    background-color: #342a98;
+  }
+  
+  /* Styling for the booking form */
+  .booking-form {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 30px;
+  }
+  
+  .booking-form h2 {
+    margin-bottom: 15px;
+  }
+  
+  .booking-form label {
+    font-weight: bold;
+  }
+  
+  .booking-form input,
+  .booking-form select,
+  .booking-form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .booking-form button {
+    background-color: #f7b731;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .booking-form button:hover {
+    background-color: #eaae00;
+  }
+  
+  /* Styling for the footer */
+  footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+  }
+  

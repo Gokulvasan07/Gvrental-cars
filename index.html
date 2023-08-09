@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Car Rental</title>
+</head>
+<body>
+  <header>
+    <h1>Car Rental</h1>
+  </header>
+  
+  <main>
+    <h2>Available Cars</h2>
+    <div class="car-list">
+      <div class="car-card" data-car-id="1">
+        <img src="https://images.carandbike.com/car-images/big/renault/fluence/renault-fluence.jpg?v=8" alt="Car 1">
+        <h3>Car Model 1</h3>
+        <P><b>RENOLD FLUENCE</b></P>
+        <p>Price per day:Rs.700</p>
+        <button class="book-button">Book Now</button>
+      </div>
+      <div class="car-card" data-car-id="2">
+        <img src="https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cms.haymarketindia.net/model/uploads/modelimages/Renault-Kiger-040320211942.jpg&w=872&h=578&q=75&c=1" alt="Car 2">
+        <h3>Car Model 2</h3>
+        <p><b>RENOLD GIGER</b></p>
+        <p>Price per day:Rs.900</p>
+        <button class="book-button">Book Now</button>
+      </div>
+      <div class="car-card" data-car-id="1">
+        <img src="https://imgd.aeplcdn.com/370x208/cw/ec/32596/Nissan-Kicks-Right-Front-Three-Quarter-159680.jpg?wm=0" alt="Car 1">
+        <h3>Car Model 3</h3>
+        <P><b>NISAN MAGNITE</b></P>
+        <p>Price per day:Rs.1000</p>
+        <button class="book-button">Book Now</button>
+      </div>
+      <!-- More car cards here -->
+    </div>
+    
+    <div class="booking-form">
+      <h2>Booking Details</h2>
+      <form id="booking-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+        <label for="address">Address:</label> 
+        <input type="text" id="adress" required>      
+        <label for="start-date">Start Date:</label>
+        <input type="date" id="start-date" required>
+        <label for="end-date">End Date:</label>
+        <input type="date" id="end-date" required>
+        <button type="submit">Submit Booking</button>
+      </form>
+    </div>
+  </main>
+  
+  <footer>
+    <p>&copy; 2023 Car Rental</p>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
